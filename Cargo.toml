@@ -1,0 +1,12 @@
+[package]
+name = "rust-samurai"
+version = "0.1.0"
+authors = ["Shohei Miyashita <shohei.miyashita@dena.jp>"]
+
+[dependencies]
+iron = "*"
+router = "*"
+mysql = "*"
+diesel = { version = "0.11.0", features = ["mysql"] }
+diesel_codegen = { version = "0.11.0", features = ["mysql"] }
+dotenv = "0.8.0"
